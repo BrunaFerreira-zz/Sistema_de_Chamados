@@ -5,6 +5,7 @@ public class SistemaChamadosMain {
 	public static void main(String[] args){
 		
 		new ControladorPrincipal().start();
+                System.out.println("Teste");
 	}
 	
 }
