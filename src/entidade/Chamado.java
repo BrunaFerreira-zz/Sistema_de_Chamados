@@ -105,6 +105,10 @@ public class Chamado implements Serializable {
         this.duracaoOperacao = tempoOperacao;
     }
 
+    Chamado(Integer integer, String rede_AB_desconectada, String usuário_não_consegue_utilizar_a_rede_em_h, int i, Tecnico tecnicoA, ClienteEmpresa CE1, SistemaOperacional sistemaOperacional, String bits, String wifi, String iU6000533637) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public Tecnico getTecnico() {
         return tecnico;
     }
