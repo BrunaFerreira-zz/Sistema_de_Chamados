@@ -52,8 +52,11 @@ public class ChamadoTest {
     @Test
     public void testSetTecnico() {
         chamadoRede.setTecnico(tecnicoB);
+        assertEquals(chamadoRede.getTecnico(), tecnicoB);
         chamadoBD.setTecnico(tecnicoA);
+        assertEquals(chamadoBD.getTecnico(), tecnicoA);
         chamadoDesempenho.setTecnico(tecnicoC);
+        assertEquals(chamadoDesempenho.getTecnico(), tecnicoC);
     }
 
     @Test
