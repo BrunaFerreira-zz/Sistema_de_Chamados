@@ -9,9 +9,7 @@ import entidade.Chamado;
 import entidade.ClienteEmpresa;
 import entidade.Empresa;
 import entidade.Pessoa;
-import entidade.RegistroChamado;
 import entidade.Tecnico;
-import entidade.TipoProblema;
 import org.junit.Assert;
 
 import org.junit.Test;
